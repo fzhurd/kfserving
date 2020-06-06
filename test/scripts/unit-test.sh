@@ -37,3 +37,6 @@ do
   n=$[$n+1]
   sleep 5
 done
+if [ $? -ne 0 ]; then
+   exit 1
+fi
